@@ -1,0 +1,9 @@
+{
+  "name": "tp3-composants-cycle-de-vie",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite --host 127.0.0.1 --port 5175 --strictPort", "build": "vite build", "preview": "vite preview --port 4175" },
+  "dependencies": { "vue": "3.5.44" },
+  "devDependencies": { "@vitejs/plugin-vue": "5.2.4", "vite": "5.4.21" }
+}
