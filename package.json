@@ -1,9 +1,15 @@
 {
-  "name": "tp3-composants-cycle-de-vie",
+  "name": "tp-jobs-app",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "vite --host 127.0.0.1 --port 5175 --strictPort", "build": "vite build", "preview": "vite preview --port 4175" },
-  "dependencies": { "vue": "3.5.44" },
-  "devDependencies": { "@vitejs/plugin-vue": "5.2.4", "vite": "5.4.21" }
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --host 127.0.0.1 --port 5174 --strictPort",
+    "server": "json-server --watch db.json --host 127.0.0.1 --port 3001",
+    "build": "vite build",
+    "preview": "vite preview --port 4174"
+  },
+  "dependencies": { "vue": "3.5.44", "vue-router": "4.6.4" },
+  "devDependencies": { "@vitejs/plugin-vue": "5.2.4", "vite": "5.4.21", "json-server": "0.17.4" }
 }

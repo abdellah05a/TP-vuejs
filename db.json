@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Développeur Vue.js",
+      "company": "Atlas Digital",
+      "location": "Marrakech",
+      "description": "Développer des interfaces web avec Vue.js, intégrer des API REST et participer aux tests de l’application.",
+      "salary": 9000,
+      "dateCreated": "2026-10-20",
+      "experience": 2
+    },
+    {
+      "id": 2,
+      "title": "Développeur backend Node.js",
+      "company": "Safi Tech",
+      "location": "Safi",
+      "description": "Concevoir des services web, gérer les données et collaborer avec l’équipe frontend.",
+      "salary": 11000,
+      "dateCreated": "2026-10-22",
+      "experience": 3
+    },
+    {
+      "id": 3,
+      "title": "Développeur web junior",
+      "company": "Horizon Web",
+      "location": "Casablanca",
+      "description": "Contribuer à la création de sites web et à la maintenance des fonctionnalités existantes. Les débutants sont acceptés.",
+      "salary": 6000,
+      "dateCreated": "2026-10-25",
+      "experience": 0
+    }
+  ]
+}
